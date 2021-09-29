@@ -13,3 +13,9 @@ https://github.com/AvaloniaUI/avalonia-dotnet-templates
 ```console
 dotnet new -i Avalonia.Templates
 ```
+
+### Creating a new MVVM Application
+
+```console
+dotnet new avalonia.mvvm -o dotnet-gui-app
+```
