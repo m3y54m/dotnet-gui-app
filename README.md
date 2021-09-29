@@ -25,8 +25,11 @@ cd dotnet-gui-app
 ### Install AvaloniaUI minimum required packages
 
 https://www.nuget.org/packages/Avalonia/
+
 https://www.nuget.org/packages/Avalonia.Desktop/
+
 https://www.nuget.org/packages/Avalonia.ReactiveUI/
+
 https://www.nuget.org/packages/Avalonia.Diagnostics/
 
 
