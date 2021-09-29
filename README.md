@@ -3,6 +3,7 @@
 A getting started project for .NET 5.0 with C# and AvaloniaUI in Linux
 
 https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code
+
 https://github.com/AvaloniaUI/Avalonia
 
 ## Commands
