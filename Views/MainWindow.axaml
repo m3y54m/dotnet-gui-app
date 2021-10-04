@@ -23,9 +23,5 @@
 
         <Button Grid.Row="3" Grid.Column="0" Name="ClickCodeButton" Content="Click Code Button"/>
 
-        <Button Grid.Row="4" Grid.Column="0" Content="Click Via XAML"/>
-
-        <Button Grid.Row="5" Grid.Column="0" Content="Mouse Pointer Enter"/>
-
     </Grid>
 </Window>
