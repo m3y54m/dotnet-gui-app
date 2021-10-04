@@ -18,6 +18,6 @@ namespace dotnet_gui_app
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
                 .LogToTrace()
-                .UseReactiveUI();
+                .UseReactiveUI(); // Adds ReactiveUI support
     }
 }
