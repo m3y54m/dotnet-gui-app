@@ -17,7 +17,7 @@
 
         <TextBox Grid.Row="0" Grid.Column="1" Grid.RowSpan="6" Text="{Binding ClickStatusUpdate}"/>
 
-        <Button Grid.Row="1" Grid.Column="0" Content="Simple VM Command"/>
+        <Button Grid.Row="1" Grid.Column="0" Content="Simple VM Command" Command="{Binding UpdateFromSimpleMethod}"/>
 
         <Button Grid.Row="2" Grid.Column="0" Content="Reactive Command"/>
 

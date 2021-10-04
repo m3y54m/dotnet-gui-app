@@ -41,14 +41,18 @@ dotnet add package Avalonia.ReactiveUI --version 0.10.7
 dotnet add package Avalonia.Diagnostics --version 0.10.7
 ```
 
-## Add .NET gitignore file
+### Add .NET gitignore file
 
 ```console
 dotnet new gitignore
 ```
 
-## Run the app
+### Run the app
 
 ```console
 dotnet run
 ```
+
+### Tutorials
+
+- [USING AVALONIA BUTTONS (MULTIPLE WAYS)](https://www.nequalsonelifestyle.com/2019/06/08/avalonia-buttons-multiple-ways/)
