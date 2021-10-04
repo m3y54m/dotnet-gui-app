@@ -56,3 +56,4 @@ dotnet run
 ### Tutorials
 
 - [USING AVALONIA BUTTONS (MULTIPLE WAYS)](https://www.nequalsonelifestyle.com/2019/06/08/avalonia-buttons-multiple-ways/)
+- [AvaloniaExamples](https://gitlab.com/HankG/avaloniaexamples)

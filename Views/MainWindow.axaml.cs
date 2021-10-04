@@ -3,7 +3,10 @@ using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 // use MainWindowViewModel class
 using dotnet_gui_app.ViewModels;
-
+// for RoutedEventArgs
+using Avalonia.Interactivity;
+// for PointerEventArgs
+using Avalonia.Input;
 namespace dotnet_gui_app.Views
 {
     public partial class MainWindow : Window
@@ -27,5 +30,16 @@ namespace dotnet_gui_app.Views
         {
             AvaloniaXamlLoader.Load(this);
         }
+
+        private void OnButtonClick(object sender, RoutedEventArgs e)
+        {
+            SpecificViewModel.UpdateTextStatus("On Click XAML Button");
+        }
+
+        private void OnPointerEnter(object sender, PointerEventArgs e)
+        {
+            SpecificViewModel.UpdateTextStatus("On Pointer Entered Button");
+        }
+
     }
 }
