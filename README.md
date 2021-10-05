@@ -53,6 +53,12 @@ dotnet new gitignore
 dotnet run
 ```
 
+### Possible problems
+
+- Build error in Windows: `error NU1100: Unable to resolve 'Avalonia (>= 0.10.7)' for 'net5.0'.`
+
+    Solution: https://stackoverflow.com/questions/68283730/error-nu1100-unable-to-resolve-microsoftofficecore-15-0-0-for-net5-0
+
 ### Tutorials
 
 - [USING AVALONIA BUTTONS (MULTIPLE WAYS)](https://www.nequalsonelifestyle.com/2019/06/08/avalonia-buttons-multiple-ways/)
